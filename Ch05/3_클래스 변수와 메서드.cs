@@ -13,8 +13,10 @@ using System.Threading.Tasks;
  *  - 클래스 변수와 클래스 매서드는 static을 선언한 변수와 메서드로 Data 영역 메모리 공간에 하나의 클래스로 관리
  *  - 클래스 이름으로 직접 참조하거나 호출한다 
  *  
- *  
- *  
+ *  싱글톤(Singleton)
+ *  - static을 활용한 가장 대표적인 객체 생성 방법
+ *  - 싱글톤 패턴이 적용된 객체는 메모리에 하나의 인스턴스만 생성하고 공유한다
+ *  - 싱글톤 객체를 활용해서 메모리 절약과 성능 향상을 도모한다 
  *  
  */
 namespace Ch05
@@ -49,7 +51,7 @@ namespace Ch05
 
     internal class _3_클래스_변수와_메서드
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Increment inc1 = new Increment();
             Increment inc2 = new Increment();
@@ -72,13 +74,13 @@ namespace Ch05
             car3.Show();
 
             // 싱글톤 객체 
-            Calc cal = Calc.Instance();
-            
+            Calc cal1 = Calc.Instance;
+            Calc cal2 = Calc.Instance;
 
-           int r1 = cal.Plus(1, 2);
-           int r2 = cal.Plus(1, 2);
-           int r3 = cal.Plus(2, 3);
-           int r4 = cal.Plus(4, 2);
+           int r1 = cal1.Plus(1, 2);
+           int r2 = cal1.Plus(1, 2);
+           int r3 = cal2.Plus(2, 3);
+           int r4 = cal2.Plus(4, 2);
 
             Console.WriteLine("r1 :" +r1);
             Console.WriteLine("r2 :" +r2);
