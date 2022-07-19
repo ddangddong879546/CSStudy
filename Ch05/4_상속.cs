@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ch05.sub4;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,10 @@ using System.Threading.Tasks;
  * 이름 : 이세연
  * 내용 : 클래스 상속 실습하기 교재 p331
  * 
- * 
- * 
+ * 상속(Inheritance)
+ * - 기존 클래스의 속성과 기능을 그대로 자식 클래스로 확장하는 문법
+ * - 부모의 속성을 private에서 protected로 수정해서 자식클래스에서 참조할 수 있도록 허용
+ * - 자식클래스에서는 부모클래스의 속성을 초기화하기 위해 생성자(base())를 호출한다
  */
 namespace Ch05
 {
@@ -51,7 +54,7 @@ namespace Ch05
 
     internal class _4_상속
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //상속 객체 생성
             Child c1 = new Child(1, 2, 3, 4);
@@ -61,6 +64,24 @@ namespace Ch05
             Console.WriteLine("c1 Minus :" +c1.Minus());
             Console.WriteLine("c2 Plus :" +c2.Plus());
             Console.WriteLine("c2 Minus :" +c2.Minus());
+
+            //Car 상속 객체 생성
+            Sedan sedan = new Sedan("그랜져", "검정", 0, 2000 );
+            Truck truck = new Truck("포터", "파랑", 0, 1);
+
+            sedan.SpeedUp(100);
+            truck.SpeedUp(60);
+
+            sedan.Show();
+            truck.Show();
+
+            //Account 상속 객체 생성
+            StockAccount kb = new StockAccount("KB증권", "101-1212-1001", "홍길동", 10000, "삼성전자", 0, 0);
+            kb.Deposit(1000000);
+            kb.Buy(10, 50000);
+            kb.Sell(5, 52000);
+            kb.Show();
+        
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Ch05.sub4
     {
         private int capacity;
 
-        public Truck(string name, string color, int speed) : base(name, color, speed)
+        public Truck(string name, string color, int speed, int capacity) : base(name, color, speed)
         {
             this.capacity = capacity;
         }
