@@ -39,7 +39,7 @@ SELECT `memberName` FROM `tbl_member`;
 SELECT `memberName`,`memberHp` FROM `tbl_member`;
 SELECT * FROM `tbl_member` WHERE `memberID`='p102';
 SELECT * FROM `tbl_member` WHERE `memberID`='p104' OR `memberID`='p105';
-UPDATE `tbl_member` SET `memberAge`= 42 WHERE `memberID`='104';
+UPDATE `tbl_member` SET `memberAge`= 42 WHERE `memberID`='p104';
 UPDATE `tbl_member` SET `memberAddr` = '조선' WHERE `memberID`='p105';
 DELETE FROM `tbl_member` WHERE `memberID`='p103';
 SELECT * FROM `tbl_member`;
