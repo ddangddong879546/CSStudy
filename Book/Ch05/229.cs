@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Book.Ch05
+{
+    internal class _229
+    {class Program
+        {
+            class MyMath
+            {
+                public static double PI = 3.141592;
+            }
+
+            static void Main1(string[] args)
+            {
+                Console.WriteLine(MyMath.PI);
+            }
+        }
+    }
+}
