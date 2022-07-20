@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch05
+namespace Book.Ch06
 {
     internal class _268
-    {class Program
+    {
+        class Program
         {
             class Test
             {

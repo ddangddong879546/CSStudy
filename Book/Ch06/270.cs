@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch05
+namespace Book.Ch06
 {
     internal class _270
     {
@@ -27,7 +27,7 @@ namespace Book.Ch05
             static void Main1(string[] args)
             {
                 Test test = new Test();
-                Console.WriteLine(test.Multiply (1,10));
+                Console.WriteLine(test.Multiply(1, 10));
             }
         }
     }

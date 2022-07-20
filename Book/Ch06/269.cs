@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch05
+namespace Book.Ch06
 {
     internal class _269
-    {class Program
+    {
+        class Program
         {
             class Test
             {
@@ -16,7 +17,7 @@ namespace Book.Ch05
                     int output = 0;
                     for (int i = min; i <= max; i++)
                     {
-                        output+= i;
+                        output += i;
                     }
                     return output;
                 }
@@ -25,7 +26,7 @@ namespace Book.Ch05
             static void Main1(string[] args)
             {
                 Test test = new Test();
-                Console.WriteLine(test.Sum(1,100));
+                Console.WriteLine(test.Sum(1, 100));
             }
         }
     }

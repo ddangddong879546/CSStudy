@@ -4,24 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch05
+namespace Book.Ch06
 {
-    internal class _267
-    {class Program
+    internal class _266
+    {
+        class Program
         {
             class Test
             {
-                public int Multi(int x, int y)
+                public int Power(int x)
                 {
-                    return x * y;
+                    return x * x;
                 }
             }
 
             static void Main1(string[] args)
             {
                 Test test = new Test();
-                Console.WriteLine(test.Multi(52,273));
-                Console.WriteLine(test.Multi(103,32));
+                Console.WriteLine(test.Power(10));
+                Console.WriteLine(test.Power(20));
             }
         }
     }

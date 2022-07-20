@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch05
+namespace Book.Ch06
 {
     internal class _276
-    {class Program
+    {
+        class Program
         {
             class MyMath
             {
@@ -25,7 +26,7 @@ namespace Book.Ch05
 
                 public static long Abs(long input)
                 {
-                    if(input < 0) { return -input; }
+                    if (input < 0) { return -input; }
                     else { return input; }
                 }
             }
@@ -37,7 +38,7 @@ namespace Book.Ch05
 
                 Console.WriteLine(MyMath.Abs(52.273));
                 Console.WriteLine(MyMath.Abs(-32.103));
-                
+
                 Console.WriteLine(MyMath.Abs(21474836470));
                 Console.WriteLine(MyMath.Abs(-21474836470));
             }
