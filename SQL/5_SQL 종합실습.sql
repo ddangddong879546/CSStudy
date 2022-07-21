@@ -289,32 +289,6 @@ ORDER BY `매출합` DESC;
 
 
 
-CREATE TABLE `Customer`(
-`custId` VARCHAR (10) PRIMARY KEY,
-`name` VARCHAR (10) NOT NULL,
-`hp` CHAR (13),
-`addr` CHAR (100), 
-`rdate` DATE NOT NULL
-);
-
-
-CREATE TABLE `Product`(
-`prodNo` INT PRIMARY KEY, 
-`prodName`VARCHAR (10) NOT NULL, 
-`stock` TINYINT DEFAULT 0 NOT NULL,
-`price` INT, 
-`company` VARCHAR (20) NOT NULL
-);
-
-CREATE TABLE `Order`(
-`orderNo` INT NOT NULL,
-`orderId` VARCHAR (10) NOT NULL,
-`orderProduct` INT NOT NULL,
-`orderCount`TINYINT DEFAULT 1 NOT NULL,
-`orderDate` DATETIME NOT NULL
-);
-
-
 
 
 

@@ -1,7 +1,7 @@
 #날짜 : 2022/07/19
 #이름 : 이세연
 #내용 : 확인문제
-
+saledbsaledb
 CREATE TABLE `tbl_member`(
 `memberID` VARCHAR (10) PRIMARY KEY,
 `memberName` VARCHAR (10) NOT NULL,
