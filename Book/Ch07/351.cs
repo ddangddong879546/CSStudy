@@ -26,7 +26,7 @@ namespace Book.Ch07
                 }
             }
 
-            static void Main(string[] args)
+            static void Main1(string[] args)
             {
                 Child child = new Child();
             }
