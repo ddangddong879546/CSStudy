@@ -8,12 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Ch09\" />
-    <Folder Include="Ch10\" />
     <Folder Include="Ch11\" />
     <Folder Include="Ch12\" />
     <Folder Include="Ch13\" />
-    <Folder Include="Ch10\" />
+    <Folder Include="Ch11\" />
+    <Folder Include="Ch12\" />
+    <Folder Include="Ch13\" />
   </ItemGroup>
 
 </Project>
