@@ -17,8 +17,8 @@ namespace Exam._06
             int n1 = Count(arr,IsOdd);
             int n2 = Count(arr,IsEven);
 
-            Console.WriteLine("홀수 갯수 : " + n1);
-            Console.WriteLine("짝수 갯수 : " + n2);
+            Console.WriteLine("홀수 개수 : " + n1);
+            Console.WriteLine("짝수 개수 : " + n2);
         }
 
         public static int Count(int[] arr, MyDelegate My)
