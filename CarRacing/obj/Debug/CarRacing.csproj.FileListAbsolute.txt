@@ -1,0 +1,11 @@
+C:\Users\502\Desktop\CSStudy\CarRacing\bin\Debug\CarRacing.exe.config
+C:\Users\502\Desktop\CSStudy\CarRacing\bin\Debug\CarRacing.exe
+C:\Users\502\Desktop\CSStudy\CarRacing\bin\Debug\CarRacing.pdb
+C:\Users\502\Desktop\CSStudy\CarRacing\obj\Debug\CarRacing.csproj.AssemblyReference.cache
+C:\Users\502\Desktop\CSStudy\CarRacing\obj\Debug\CarRacing.csproj.SuggestedBindingRedirects.cache
+C:\Users\502\Desktop\CSStudy\CarRacing\obj\Debug\CarRacing.Form1.resources
+C:\Users\502\Desktop\CSStudy\CarRacing\obj\Debug\CarRacing.Properties.Resources.resources
+C:\Users\502\Desktop\CSStudy\CarRacing\obj\Debug\CarRacing.csproj.GenerateResource.cache
+C:\Users\502\Desktop\CSStudy\CarRacing\obj\Debug\CarRacing.csproj.CoreCompileInputs.cache
+C:\Users\502\Desktop\CSStudy\CarRacing\obj\Debug\CarRacing.exe
+C:\Users\502\Desktop\CSStudy\CarRacing\obj\Debug\CarRacing.pdb
