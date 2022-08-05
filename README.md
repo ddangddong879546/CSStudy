@@ -72,6 +72,21 @@
 
 
 
+## Project 1. 계산기
+
+![MyCalc V1 0 2022-08-05 오후 12_50_44](https://user-images.githubusercontent.com/109125227/182999502-9d4f14d7-0e9e-456e-a8e6-3b14c7e35fdf.png)
+
+1. 프로젝트 유형
+   - WinForm 프로젝트
+
+2. 활용 기술
+- 컨트롤
+- 이벤트와 핸들러
+
+
+
+
+
 
 
 
